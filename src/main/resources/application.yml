@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://${DB_USER:admin}:${DB_PASSWORD}@vancken.v9px17v.mongodb.net/${DB_NAME}
